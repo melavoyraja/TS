@@ -11,3 +11,8 @@ function countdown(initial, final, interval) {
         current -= interval;
     }
 }
+function calculateTotal(x, y) {
+    var total = x.length + y.length;
+    return total;
+}
+var todo = { name: 'hello' };
